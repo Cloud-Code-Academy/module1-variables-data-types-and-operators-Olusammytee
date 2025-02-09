@@ -18,7 +18,7 @@
  * If statements are not specifically covered in the lesson this module, but review module 2 flow control section for an overview if needed.
  * Resources: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_if_else.htm 
  * 
- * @author Your Name
+ * @author Temitayo Oluwalade
  */
 public with sharing class VariablesDataTypesOperators {
     
@@ -245,8 +245,9 @@ public with sharing class VariablesDataTypesOperators {
         // First calculate 15 + 5 = 20
         // Then multiply by 2: 20 * 2 = 40
         // Finally subtract from 48: 48 - 40 = 8
-        Integer answer = 48 - 2 * (15 + 5);
-        return answer;
+        
+        Integer result = 48 - 2 * (15 + 5);
+        return result;
     }
 
     /**
